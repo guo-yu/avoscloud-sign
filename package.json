@@ -4,7 +4,7 @@
   "description": "a cli tool to create avoscloud sign",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "node example/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/turingou/avoscloud-sign/issues"
   },
-  "homepage": "https://github.com/turingou/avoscloud-sign"
+  "homepage": "https://github.com/turingou/avoscloud-sign",
+  "dependencies": {
+    "MD5": "^1.2.1"
+  }
 }
